@@ -10,7 +10,7 @@ An editorial, responsive portfolio concept for Ayushi Taralkar using Next.js App
 - Three featured project cards with custom dashboard, agent workflow, and clinical audit trail visuals
 - About, interests, journal note, and contact footer
 - Reduced-motion CSS fallback
-- No fabricated profile photo: the hero and about visuals are placeholders ready for your own image
+- Uses `public/ayushi.jpg` for the hero portrait; replace it with an updated photo when needed
 
 ## Run locally
 Requires Node.js 18.17+.
@@ -23,7 +23,7 @@ npm run dev
 Open http://localhost:3000.
 
 ## Personalise before publishing
-1. Replace the initials/photo placeholders in `app/page.tsx` with your real photo in `/public`.
+1. Replace `public/ayushi.jpg` with your preferred portrait.
 2. Update the email address (`hello@ayushitaralkar.dev`) to the address you want recruiters to use.
 3. Replace GitHub links with direct repository URLs for Artha Sage, Composio Research Agent, and Field-to-Record.
 4. Add your actual resume PDF as `public/Ayushi-Taralkar-Resume.pdf` and link it from the hero if desired.

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowDownRight, ArrowRight, ArrowUpRight, Moon, Sun, Sparkles, Activity, Palette, Compass, ChartNoAxesCombined, Code2, FlaskConical, Heart, Plane, Waves, Music2, Brush, Utensils, Stethoscope, Brain, Workflow, Database, Menu, X } from "lucide-react";
 
@@ -65,7 +66,7 @@ export default function Home() {
       <div className="hero-art">
         <div className="art-grid"/>
         <div className="orbit orbit-one"/><div className="orbit orbit-two"/>
-        <div className="profile-placeholder"><div className="profile-sun"/><div className="profile-initials">AT</div><span>YOUR PHOTO<br/>GOES HERE</span></div>
+        <div className="profile-placeholder"><Image src="/ayushi.jpg" alt="Ayushi Taralkar" fill priority sizes="(max-width: 540px) 158px, 260px" className="profile-photo"/></div>
         <div className="float-chip chip-ai"><span className="chip-icon"><Sparkles size={17}/></span><div><b>Think</b><small>find the signal</small></div></div>
         <div className="float-chip chip-design"><span className="chip-icon pink"><Palette size={17}/></span><div><b>Design</b><small>make it human</small></div></div>
         <div className="float-chip chip-build"><span className="chip-icon yellow"><Code2 size={17}/></span><div><b>Build</b><small>make it real</small></div></div>
