@@ -487,7 +487,7 @@ export default function InteractiveBrainSection() {
           <div className="brain-center-stage">
             {view3D ? (
               <div className="brain-3d-wrapper">
-                <BrainScene3D />
+                <BrainScene3D/>
               </div>
             ) : (
               <div className="brain-visual-wrapper">
