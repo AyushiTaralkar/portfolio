@@ -57,7 +57,7 @@ export default function Home() {
       <div className="hero-copy">
         <div className="eyebrow"><span className="live-dot"/> VIT · COMPUTER SCIENCE · HEALTH INFORMATICS</div>
         <p className="hero-kicker">Curious mind. Builder hands.</p>
-        <h1>I build <span className="underline-word">AI-powered</span> experiences that people <em>actually use.</em></h1>
+        <h1>Curious by nature.<br/><em className="hero-highlight">Driven to build.</em></h1>
         <p className="hero-sub">Developer, designer, and product thinker who loves turning complex problems into simple, meaningful solutions.</p>
         <div className="pills">{["AI / ML","UI / UX","Product","Analytics","Engineering"].map(t => <span key={t}>{t}</span>)}</div>
         <div className="hero-actions"><a className="button button-dark" href="#projects">Explore my work <ArrowRight size={17}/></a><a className="button button-outline" href="https://github.com/AyushiTaralkar" target="_blank" rel="noreferrer">View GitHub <ArrowUpRight size={16}/></a></div>
@@ -119,7 +119,7 @@ export default function Home() {
     <section id="about" className="about-section section-wrap">
       <div className="about-top"><div className="section-label"><span>04 / OUTSIDE THE CODE</span><span>THE REAL ME</span></div><h2>A slightly <em>unexpected</em><br/>route here.</h2></div>
       <div className="about-card">
-        <div className="about-photo"><div className="photo-shape"><div className="photo-monogram">A.</div><span>ROOM TO BE<br/>MORE THAN ONE THING</span></div><span className="photo-caption">work in progress, always ✳</span></div>
+        <div className="about-photo"><div className="photo-shape"><Image src="/ayushi-real.png" alt="Ayushi Taralkar" fill sizes="(max-width: 800px) 100vw, 40vw" className="about-portrait"/></div><span className="photo-caption">work in progress, always ✳</span></div>
         <div className="about-copy"><p className="about-quote">“I used to prepare for medicine. Now I build technology for people.”</p><p>I took a detour through pre-med before finding my way to computer science. It taught me that changing direction isn’t starting over — sometimes it’s how you find the questions you really want to work on.</p><p>These days, I’m studying Computer Science with a Health Informatics focus at VIT, building AI projects, asking too many “what if?” questions, and learning by making things real.</p><a className="text-link" href="mailto:hello@ayushitaralkar.dev">Have a good problem for me? <ArrowUpRight size={15}/></a></div>
       </div>
       <div className="interests"><span className="interests-label">THINGS THAT MAKE ME, ME</span><div className="interest-list">
